@@ -1,0 +1,18 @@
+{
+  "name": "database-connection",
+  "version": "1.0.0",
+  "description": "App para conectarse a la base de datos de flashback",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.js --recursive",
+    "debug": "mocha ./test/**/*.js --recursive --inspect"
+  },
+  "author": "Ignacio Filipovskis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^9.0.1",
+    "mysql": "^2.18.1",
+    "readline": "^1.3.0"
+  }
+}
